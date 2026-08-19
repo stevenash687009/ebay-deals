@@ -19,11 +19,6 @@ background:var(--card);color:var(--txt);font-size:16px;margin-bottom:8px}
 .chip{flex:1;text-align:center;padding:9px 0;border-radius:10px;border:1px solid var(--line);
 background:var(--card);color:var(--dim);font-size:14px;font-weight:600}
 .chip.on{background:#243447;color:#fff;border-color:#3a5573}
-.tabs{display:flex;gap:6px;overflow-x:auto;margin-top:8px;padding-bottom:3px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
-.tabs::-webkit-scrollbar{display:none}
-.tab{white-space:nowrap;padding:8px 13px;border-radius:18px;border:1px solid var(--line);background:var(--card);color:var(--dim);font-size:13px;font-weight:700;flex:0 0 auto}
-.tab.on{background:#2ecc71;color:#06371c;border-color:#2ecc71}
-.tnum{margin-left:6px;font-size:11px;opacity:.8}
 main{padding:10px 12px}
 .cat{margin-bottom:10px;border:1px solid var(--line);border-radius:12px;overflow:hidden}
 .cat>summary{list-style:none;cursor:pointer;padding:13px 14px;font-weight:700;font-size:15px;
@@ -53,7 +48,7 @@ padding:11px 12px;margin-bottom:8px}
 </style></head><body>
 <header>
 <h1>&#128225; eBay Deal Watcher</h1>
-<div class="stamp">Updated Thu 20 Aug 2026, 06:49 AM</div>
+<div class="stamp">Updated Thu 20 Aug 2026, 07:38 AM</div>
 <div class="counts"><b>49</b> deals &middot; <b>56</b> fair &middot; 185 total listings</div>
 <input id="q" type="search" placeholder="Search titles (e.g. 3090, ddr4, threadripper)&hellip;">
 <div class="chips">
@@ -61,10 +56,9 @@ padding:11px 12px;margin-bottom:8px}
 <div class="chip" data-f="ok">+ Fair</div>
 <div class="chip" data-f="all">Everything</div>
 </div>
-<div class="tabs"><div class="tab on" data-tab="all">All</div><div class="tab" data-tab="ready_pcs">Ready PCs<span class="tnum">4</span></div><div class="tab" data-tab="bigger_models">Bigger models<span class="tnum">10</span></div><div class="tab" data-tab="build_parts">Parts<span class="tnum">34</span></div><div class="tab" data-tab="au_retailers">Retailers<span class="tnum">1</span></div></div>
 </header>
 <main id="main">
-<details class="cat" data-cat="ready_pcs" open><summary>READY-TO-RUN PCs  (Alienware-style + a whole backup PC)<span class="cbadge">4 deals</span></summary>
+<details class="cat" open><summary>READY-TO-RUN PCs  (Alienware-style + a whole backup PC)<span class="cbadge">4 deals</span></summary>
 <div class="watch"><div class="wname">Alienware Aurora desktop (RTX)</div><div class="wmeta">median&nbsp;$1,385 &middot; cheapest&nbsp;$1,099 &middot; 4&nbsp;listed</div>
 <a class="card good" href="https://www.ebay.com.au/itm/158101098608?_skw=Alienware+Aurora+RTX+desktop&amp;hash=item24cf8f5070:g:eN8AAeSwl85qVw7I" target="_blank" rel="noopener" data-v="good" data-t="(💎a+) alienware aurora r10 amd ryzen 7 5800 16gb 512gb ssd+2tb hdd rtx 3070 8gb"><div class="ptop"><span class="price">$1,099</span><span class="badge good">DEAL</span></div><div class="title">(💎A+) Alienware Aurora R10 AMD Ryzen 7 5800 16GB 512GB SSD+2TB HDD RTX 3070 8GB</div><div class="sub">Used &middot; Buy It Now</div><div class="tags">GOOD (&lt;= target $2,500) &amp;middot; WELL below market (median $1,385)</div></a>
 <a class="card good" href="https://www.ebay.com.au/itm/147157803702?_skw=Alienware+Aurora+RTX+desktop&amp;hash=item224349e2b6:g:YTIAAeSwm2Zpk-Qv" target="_blank" rel="noopener" data-v="good" data-t="dell alienware  aurora r12 nvidia rtx 3080 intel i7 11700kf 512gb ssd 2tb hd 16g"><div class="ptop"><span class="price">$1,571</span><span class="badge good">DEAL</span></div><div class="title">DELL ALIENWARE  AURORA R12 Nvidia RTX 3080 INTEL i7 11700KF 512GB SSD 2TB HD 16G</div><div class="sub">Used &middot; Buy It Now</div><div class="tags">GOOD (&lt;= target $2,500) &amp;middot; above median $1,385</div></a>
@@ -78,7 +72,7 @@ padding:11px 12px;margin-bottom:8px}
 <a class="card ok" href="https://www.ebay.com.au/itm/198482989781?_skw=RTX+5090+desktop+pc&amp;hash=item2e368212d5:g:cT8AAeSwgqhqhewF" target="_blank" rel="noopener" data-v="ok" data-t="asus rog nuc 16 edition 20 ultra 9 290hx rtx 5090 64gb ram 2tb ssd w11h mini pc"><div class="ptop"><span class="price">$10,083</span><span class="badge ok">fair</span></div><div class="title">Asus ROG NUC 16 Edition 20 Ultra 9 290HX RTX 5090 64GB RAM 2TB SSD W11H Mini PC</div><div class="sub">Brand New &middot; Buy It Now</div><div class="tags">above target ($8,000) &amp;middot; below median</div></a>
 </div>
 </details>
-<details class="cat" data-cat="bigger_models" open><summary>BOXES FOR BIGGER MODELS  (dual-3090 48GB / big-RAM workstation / 128GB unified incl Mac)<span class="cbadge">10 deals</span></summary>
+<details class="cat" open><summary>BOXES FOR BIGGER MODELS  (dual-3090 48GB / big-RAM workstation / 128GB unified incl Mac)<span class="cbadge">10 deals</span></summary>
 <div class="watch"><div class="wname">Dell Precision 7920 (big-RAM workstation base)</div><div class="wmeta">median&nbsp;$2,000 &middot; cheapest&nbsp;$1,850 &middot; 8&nbsp;listed</div>
 <a class="card good" href="https://www.ebay.com.au/itm/398301776992?_skw=Dell+Precision+7920&amp;hash=item5cbca2cc60:g:s1cAAeSwA6tqgCg4" target="_blank" rel="noopener" data-v="good" data-t="dell precision t7920 workstation/2x4110 cpu/64g  ecc ram/nvidia rtx 3060 gpu"><div class="ptop"><span class="price">$1,850</span><span class="badge good">DEAL</span></div><div class="title">Dell Precision T7920 Workstation/2x4110 CPU/64G  ECC RAM/Nvidia RTX 3060 GPU</div><div class="sub">Used &middot; Buy It Now</div><div class="tags">GOOD (&lt;= target $2,500) &amp;middot; below median</div></a>
 <a class="card bad" href="https://www.ebay.com.au/itm/307096409256?_skw=Dell+Precision+7920&amp;hash=item47805f54a8:g:DGwAAeSwh0Nqa7mb" target="_blank" rel="noopener" data-v="bad" data-t="dell precision 7920 2x xeon gold 6248 20c 512gb ram 1tb ssd 20tb hdd m6000 w11p"><div class="ptop"><span class="price">$10,899</span><span class="badge bad">skip</span></div><div class="title">Dell Precision 7920 2X Xeon Gold 6248 20C 512GB Ram 1TB SSD 20TB HDD M6000 W11P</div><div class="sub">Used &middot; Buy It Now</div><div class="tags">above target ($2,500) &amp;middot; above median $2,000</div></a>
@@ -107,7 +101,7 @@ padding:11px 12px;margin-bottom:8px}
 <a class="card ok" href="https://www.ebay.com.au/itm/158001250437?_skw=Ryzen+AI+Max+395+128GB&amp;hash=item24c99bc085:g:9J4AAeSwp05qg8RZ" target="_blank" rel="noopener" data-v="ok" data-t="gmktec ai mini pc ryzen al max+ 395 (up to 5.1ghz) mini gaming computers, 128gb"><div class="ptop"><span class="price">$6,833</span><span class="badge ok">fair</span></div><div class="title">GMKtec AI Mini PC Ryzen Al Max+ 395 (up to 5.1GHz) Mini Gaming Computers, 128GB</div><div class="sub">Brand New &middot; Buy It Now</div><div class="tags">above target ($3,000) &amp;middot; below median</div></a>
 </div>
 </details>
-<details class="cat" data-cat="build_parts" open><summary>BUILD PARTS  (GPU / RAM / PSU / board / case)<span class="cbadge">34 deals</span></summary>
+<details class="cat" open><summary>BUILD PARTS  (GPU / RAM / PSU / board / case)<span class="cbadge">34 deals</span></summary>
 <div class="watch"><div class="wname">RTX 3090 single card (build 2x = 48GB)</div><div class="wmeta">median&nbsp;$2,206 &middot; cheapest&nbsp;$1,898 &middot; 10&nbsp;listed</div>
 <a class="card ok" href="https://www.ebay.com.au/itm/227479613035?_skw=RTX+3090+graphics+card&amp;hash=item34f6d76e6b:g:QHoAAeSwaclqgwAi" target="_blank" rel="noopener" data-v="ok" data-t="msi nvidia geforce rtx 3090 gaming x trio 24gb gddr6x graphics card"><div class="ptop"><span class="price">$2,039</span><span class="badge ok">fair</span></div><div class="title">MSI NVIDIA GeForce RTX 3090 Gaming X Trio 24GB GDDR6X Graphics Card</div><div class="sub">Used &middot; Buy It Now</div><div class="tags">above target ($1,200) &amp;middot; below median</div></a>
 <a class="card bad" href="https://www.ebay.com.au/itm/398290992601?_skw=RTX+3090+graphics+card&amp;hash=item5cbbfe3dd9:g:20QAAeSwBCJqgTYu" target="_blank" rel="noopener" data-v="bad" data-t="nvidia geforce rtx™ 3090 vision oc 24gb gigabyte white graphics card"><div class="ptop"><span class="price">$2,767</span><span class="badge bad">skip</span></div><div class="title">NVIDIA GeForce RTX™ 3090 VISION OC 24GB GIGABYTE White Graphics Card</div><div class="sub">Used &middot; Buy It Now</div><div class="tags">above target ($1,200) &amp;middot; above median $2,206</div></a>
@@ -282,7 +276,7 @@ padding:11px 12px;margin-bottom:8px}
 <a class="card bad" href="https://www.ebay.com.au/itm/326518768154?_skw=Threadripper+Pro&amp;hash=item4c0609021a:g:TpQAAOSwO0pn8QtM" target="_blank" rel="noopener" data-v="bad" data-t="amd ryzen threadripper pro 7985wx processor 5.1 ghz 64 cores str5 - unlocked"><div class="ptop"><span class="price">$10,000</span><span class="badge bad">skip</span></div><div class="title">AMD Ryzen Threadripper PRO 7985WX Processor 5.1 GHz 64 Cores sTR5 - UNLOCKED</div><div class="sub">Used &middot; Buy It Now</div><div class="tags">above target ($1,000) &amp;middot; above median $4,999</div></a>
 </div>
 </details>
-<details class="cat" data-cat="au_retailers" open><summary>AU RETAILERS - DIRECT (UN Tech / ACT / Willetton / ProTech)<span class="cbadge">1 deals</span></summary>
+<details class="cat" open><summary>AU RETAILERS - DIRECT (UN Tech / ACT / Willetton / ProTech)<span class="cbadge">1 deals</span></summary>
 <div class="watch"><div class="wname">Willetton Computers (7920)</div><div class="wmeta">median&nbsp;$2,550 &middot; cheapest&nbsp;$2,550 &middot; 1&nbsp;listed</div>
 <a class="card good" href="https://www.willettoncomputers.com.au/products/dell-precision-7920-dual-xeon-gold-6128-workstation-quadro-p2000-p5000" target="_blank" rel="noopener" data-v="good" data-t="dell precision 7920 workstation | dual intel xeon gold or platinum processors | up to 256gb ram | quadro p2000 / p5000 | 500gb ssd 1tb hdd |"><div class="ptop"><span class="price">$2,550</span><span class="badge good">DEAL</span></div><div class="title">Dell Precision 7920 Workstation | Dual Intel Xeon Gold or Platinum Processors | Up to 256GB RAM | Quadro P2000 / P5000 | 500GB SSD 1TB HDD |</div><div class="sub">in stock &middot; Buy It Now</div><div class="tags">GOOD (&lt;= target $3,000) &amp;middot; below median</div></a>
 </div>
@@ -297,33 +291,27 @@ padding:11px 12px;margin-bottom:8px}
 <div class="tip">Tap any card to open the eBay listing. This page refreshes every time the watcher runs.</div>
 </main>
 <script>
-var filt='good',q='',tab='all';
+var filt='good',q='';
 var chips=document.querySelectorAll('.chip');
 chips.forEach(function(c){c.onclick=function(){
   chips.forEach(function(x){x.classList.remove('on')});c.classList.add('on');
   filt=c.dataset.f;apply();};});
-var tabsEl=document.querySelectorAll('.tab');
-tabsEl.forEach(function(t){t.onclick=function(){
-  tabsEl.forEach(function(x){x.classList.remove('on')});t.classList.add('on');
-  tab=t.dataset.tab;window.scrollTo(0,0);apply();};});
 document.getElementById('q').addEventListener('input',function(e){q=e.target.value.toLowerCase();apply();});
 function show(v){if(filt==='all')return true;if(filt==='ok')return v!=='bad';return v==='good';}
 function apply(){
   var any=false;
   document.querySelectorAll('details.cat').forEach(function(cat){
-    var inTab=(tab==='all'||cat.dataset.cat===tab);
     var catAny=false;
     cat.querySelectorAll('.watch').forEach(function(w){
       var wAny=false;
       w.querySelectorAll('.card').forEach(function(card){
-        var match=show(card.dataset.v)&&(q===''||card.dataset.t.indexOf(q)>-1);
-        var vis=inTab&&match;
-        card.style.display=vis?'block':'none';if(vis){wAny=true;catAny=true;any=true;}
+        var ok=show(card.dataset.v)&&(q===''||card.dataset.t.indexOf(q)>-1);
+        card.style.display=ok?'block':'none';if(ok){wAny=true;catAny=true;any=true;}
       });
       w.style.display=wAny?'block':'none';
     });
-    cat.style.display=(inTab&&catAny)?'block':'none';
-    if(inTab&&catAny&&(q!==''||tab!=='all'))cat.open=true;
+    cat.style.display=catAny?'block':'none';
+    if(catAny&&q!=='')cat.open=true;
   });
   document.getElementById('noresults').style.display=any?'none':'block';
 }
